@@ -1,0 +1,29 @@
+#details_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  font-size: clamp(1.2em, 5vw, 1.5em);
+  font-weight: bolder;
+  color: var(--text-color);
+}
+
+#details_img {
+  width: 80%;
+  border: 1px solid var(--text-color);
+}
+
+#details_img_extra_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.details_img_extra {
+  width: 20%;
+  border: 1px solid var(--text-color);
+}
